@@ -1,5 +1,11 @@
 import math
 
+def afq_code(n):
+    for i in range(1000000-1,2, -2):
+        if n % i == 0:
+            if prime_prime(i) != 0:
+                return i
+
 def prime_prime(n): # checks if the number found is  a prime
     print(n)
     for i in range(3, n-2,2):   
@@ -19,9 +25,6 @@ print(highest_prime(600851475143))
 
 
 
+#  find the highest prime
 
-# def afq_code(n):
-#     for i in range(1000000-1,2, -2):
-#         if n % i == 0:
-#             if prime_prime(i) != 0:
-#                 return i
+

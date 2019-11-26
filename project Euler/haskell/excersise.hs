@@ -8,3 +8,6 @@ afqnumber a b c
 
 afqmain :: Int -> Either DoubleValue String
 afqmain a = afqnumber (a-1) a a
+
+
+--  find biggest pythagoria numbers.

@@ -14,3 +14,6 @@ z2 = afq_function2(5)
 
 print(z)
 print(z2)
+
+
+# also explaining how functions work.

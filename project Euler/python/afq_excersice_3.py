@@ -6,3 +6,7 @@ def fibonacchi_sum(a,b):
             return fibonacchi_sum(b,a+b)
     return 0
 print(fibonacchi_sum(1,2))
+
+
+#  code to find fibonacchi sum from apri.
+#  my code not implemented.

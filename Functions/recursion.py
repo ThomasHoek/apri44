@@ -9,3 +9,6 @@ def square(a):
 
 def pythagoras(a,b):
     return squareroot(add(square(a), square(b)))
+
+
+#  Basic functions in python so show how functions work.

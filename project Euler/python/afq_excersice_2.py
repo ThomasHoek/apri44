@@ -5,3 +5,5 @@ def SumWithTerms(a0,r,n):
         return a0 + SumWithTerms(a0 + r , r , n-1)
 
 print(SumWithTerms(3,4,5))
+
+#  code to find the terms, project euler
