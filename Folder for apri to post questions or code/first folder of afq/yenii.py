@@ -12,3 +12,4 @@ def search(d, x, first, last):
         search(d, x, middle, last)
     
     else:
+        pass
