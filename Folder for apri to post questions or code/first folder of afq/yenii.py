@@ -2,9 +2,13 @@ import yuvarla
 
 def search(d, x, first, last):
 
-    ortanca = (first + last) / 2            # takes the middle of first and last
-    yuvarla.yuvarla -(ortanca)              # makes an integer from it
+    middle = (first + last) / 2            # takes the middle of first and last
+    yuvarla.yuvarla(middle)              # makes an integer from it
 
-    if x < d[ortanca]:                      # if x is smaller then the middle of array d
-        search(d, x, first, ortanca)        # recursive split the list in two on ortanca
-
+    if x < middle:                      # if x is smaller then the middle of array d
+        search(d, x, first, middle)        # recursive split the list in two on ortanca
+    
+    elif x > middle:
+        search(d, x, middle, last)
+    
+    else:
